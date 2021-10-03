@@ -26,8 +26,14 @@ optional arguments:
 
 ```
 
+### Example using a username/password list
 ```
 python3 brute_force_network_socket.py 10.11.1.72 4555 -l username_password_list.txt  -t up 
+```
+
+### Example using just a password list
+```
+python3 brute_force_network_socket.py 10.11.1.72 4555 -l password_list.txt -t p -u admin
 ```
 
 Results are written to a `brute_force_output.csv` file.
