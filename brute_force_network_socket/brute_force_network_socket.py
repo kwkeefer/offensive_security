@@ -180,7 +180,7 @@ if __name__ == "__main__":
                         help="Specify if you are using a list of passwords (p) or usernames and password (up)",
                         default="up")
     parser.add_argument("-d", "--delimiter", help="Delimiter in username and password list.", default=":")
-    parser.add_argument("-th", "--threads", help="Number of threads to use.", default=5, type=int)
+    parser.add_argument("-th", "--threads", help="Number of threads to use.  Default is 5.", default=5, type=int)
     parser.add_argument("-u", "--username", help="Used if a password list is given")
     parser.add_argument("-v", action="store_true", help="Adds verbosity.  Not recommended when using multiple threads.")
     args = parser.parse_args()
