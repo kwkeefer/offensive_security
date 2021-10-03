@@ -25,6 +25,7 @@ optional arguments:
   -v                    Adds verbosity. Not recommended when using multiple threads.
 
 ```
+Results are written to a `brute_force_output.csv` file.
 
 ### Example using a username/password list
 ```
@@ -35,7 +36,5 @@ python3 brute_force_network_socket.py 10.11.1.72 4555 -l username_password_list.
 ```
 python3 brute_force_network_socket.py 10.11.1.72 4555 -l password_list.txt -t p -u admin
 ```
-
-Results are written to a `brute_force_output.csv` file.
 
 **Do not use for malicious purposes.  This script is for educational use only.**
