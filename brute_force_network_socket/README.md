@@ -19,9 +19,9 @@ optional arguments:
   -d DELIMITER, --delimiter DELIMITER
                         Delimiter in username and password list.
   -th THREADS, --threads THREADS
-                        Number of threads to use.
+                        Number of threads to use.  Default is 5.
   -u USERNAME, --username USERNAME
-                        Used if a password list is given
+                        Username to be used in conjunction with a password list.
   -v                    Adds verbosity. Not recommended when using multiple threads.
 
 ```
